@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import { WalletSelector } from "@aptos-labs/wallet-adapter-ant-design";
+import { useWallet } from "@aptos-labs/wallet-adapter-react";
 import {
   WelldoneWallet,
   WelldoneWalletName,
