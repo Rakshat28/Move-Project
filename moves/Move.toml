@@ -1,0 +1,10 @@
+
+[package]
+name = 'tic-tac-toe'
+version = '1.0.0'
+
+[addresses]
+tic_tac_toe = "0xba8a558de1870327fbdd3362c61c8febfbc58b51e9a3dd35ee7742d345e79d3a"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-framework.git", subdir = "aptos-framework", rev = "mainnet" }
